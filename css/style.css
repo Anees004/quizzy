@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway%3A1%2C200%2C300%2C400%2C400italic%2C700%2C700italic%2C900%7CBiryani%3A1%2C200%2C300%2C400%2C400italic%2C700%2C700italic%2C900&amp;display=swap&amp;ver=5.8.6");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  overflow-x: hidden !important;
+  margin: 0;
+}
+
+.top-logo {
+  margin-left: 41.5%;
+  margin-top: 1%;
+}
+.bcdimg {
+  background-image: url("/img/student_bgd.jpg");
+  height: 363px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  backdrop-filter: blur(5px);
+}
+.navbar {
+  display: flex;
+  position: relative;
+  margin-left: 9%;
+  padding-left: 0%;
+  top: 5%;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: 700;
+  align-items: center;
+  background-color: transparentl;
+  color: white;
+  border-radius: 5px;
+  white-space: nowrap; /* prevent text from wrapping */
+  overflow: hidden; /* hide any overflowing text */
+  text-overflow: ellipsis; /* add ellipsis at the end of overflowing text */
+}
+
+.navbar a:hover {
+  transition-duration: 0.2s;
+  background-color: rgba(153, 151, 166, 0.523);
+  border-radius: 5px;
+}
+.down-icn {
+  font-size: 10px;
+  width: 12px;
+  color: #a7a0a0;
+}
+.action_button {
+  border-radius: 0% !important;
+  margin-left: 8% !important;
+  padding-left: 1.5% !important;
+  padding-right: 1.5% !important;
+  background-color: #ff0000 !important;
+  color: #ffffff;
+}
+.action_button:hover {
+  background-color: #d80606 !important;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 8.5%;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  background-color: #63718047;
+}
+.menu {
+  width: 25%;
+  margin-left: 97px;
+  margin-top: 1%;
+}
+.menu h3 {
+  font-size: 14px;
+
+  background-color: rgb(11, 66, 100);
+  color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: 200;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.menu h3:hover {
+  transition: 0.2s;
+  background-color: rgb(8, 97, 152);
+}
+
+.content {
+  width: 80%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 8%;
+  margin-bottom: 4%;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 230%;
+}
+
+.content h3 {
+  font-size: 13px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 1%;
+  margin-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.dropdown:hover {
+  transition-duration: 0.2s;
+  background-color: rgba(153, 151, 166, 0.523);
+  border-radius: 5px;
+}
+.dropdown a:hover {
+  background-color: transparent !important;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-top: 10%;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(69, 65, 65);
+  padding: 12px 16px;
+  font-size: 12px;
+  border-bottom: 1px solid #dfdcdc;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  transition-duration: 0.2s !important;
+  background-color: rgba(153, 151, 166, 0.523) !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: -14%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.sub-dropdown {
+  position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-top: -12%;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the dropdown */
+.sub-dropdown-content a {
+  color: rgb(69, 65, 65);
+  padding: 12px 16px;
+  font-size: 12px;
+  border-bottom: 1px solid #dfdcdc;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.sub-dropdown-content a:hover {
+  transition-duration: 0.2s;
+  background-color: rgba(153, 151, 166, 0.523);
+}
+
+/* Show the dropdown menu on hover */
+.sub-dropdown:hover .sub-dropdown-content {
+  display: block;
+  margin-left: 72%;
+  margin-top: -1 2%;
+}
+
+/* ...................for footer................... */
+
+footer {
+  background-color: rgb(8, 58, 134);
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 70%;
+  align-items: center;
+}
+
+.left p {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right ul {
+  display: inline;
+  list-style: none;
+  margin-left: 12%;
+}
+.right ul li {
+  display: inline;
+}
+/* 
+.right a {
+  margin-left: 10px;
+}
+
+.right img {
+  width: 30px;
+} */
